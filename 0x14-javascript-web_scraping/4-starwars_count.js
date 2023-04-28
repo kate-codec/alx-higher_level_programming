@@ -1,3 +1,4 @@
+#!/usr/bin/node
 t request = require('request');
 request(process.argv[2], function (error, response, body) {
   if (!error) {
