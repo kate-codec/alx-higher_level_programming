@@ -1,3 +1,4 @@
+#!/usr/bin/node
 t base64 = require('base-64');
 const request = require('request');
 const utf8 = require('utf8');
